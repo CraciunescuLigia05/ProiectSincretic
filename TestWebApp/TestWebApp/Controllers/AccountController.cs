@@ -20,6 +20,7 @@ namespace TestWebApp.Controllers
 
         public AccountController()
         {
+            int a = 100;
         }
 
         public AccountController(ApplicationUserManager userManager, ApplicationSignInManager signInManager )
